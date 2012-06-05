@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 export LOCAL_PATH=`pwd`
 export MYDROID=${LOCAL_PATH}/../mydroid
