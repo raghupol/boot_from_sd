@@ -23,7 +23,7 @@ else
     exit 1
 fi
 
-echo -e "${YELLOW}Preparing Images to SD card....${NORMAL}"
+echo -e "${YELLOW}Preparing Images for SD card....${NORMAL}"
 export AFS_IMAGE_PATH=${MYDROID}/out/target/product/${BOARD_TYPE}
 export IMG_PATH=${LOCAL_PATH}/omap4_sd_files_${BOARD_TYPE}
 
