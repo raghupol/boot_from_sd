@@ -2,9 +2,9 @@
 
 export LOCAL_PATH=`pwd`
 export MYDROID=${LOCAL_PATH}/../mydroid
-export MYKERNEL=${LOCAL_PATH}/../kernel/android-3.0/arch/arm/boot
-export MYUBOOT=${LOCAL_PATH}/../u-boot
-export MYXLOADER=${LOCAL_PATH}/../x-loader
+export MYKERNEL=${MYDROID}/kernel/arch/arm/boot
+export MYUBOOT=${MYDROID}/u-boot
+export MYXLOADER=${MYDROID}/x-loader
 
 # Pretty colors
 YELLOW="\033[01;33m"
