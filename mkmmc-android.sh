@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Change language
+export LANG=C
+
 EXPECTED_ARGS=1
 if [ $# == $EXPECTED_ARGS ]
 then
